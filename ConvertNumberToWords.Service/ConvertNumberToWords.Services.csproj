@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConvertNumberToWords.RepositoryInterfaces\ConvertNumberToWords.RepositoryInterfaces.csproj" />
+    <ProjectReference Include="..\ConvertNumberToWords.Service.Interfaces\ConvertNumberToWords.Service.Interfaces.csproj" />
+    <ProjectReference Include="..\ConvertNumberToWords.Domain\ConvertNumberToWords.Domain.csproj" />
+  </ItemGroup>
+</Project>

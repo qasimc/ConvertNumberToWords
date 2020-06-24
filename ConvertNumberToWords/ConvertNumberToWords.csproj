@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConvertNumberToWords.DependencyInjection\ConvertNumberToWords.DependencyInjection.csproj" />
+    <ProjectReference Include="..\ConvertNumberToWords.Service.Interfaces\ConvertNumberToWords.Service.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,100 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertNumberToWords", "ConvertNumberToWords\ConvertNumberToWords.csproj", "{B4E36D07-3E9D-4771-B8D4-A6B5E394E9A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertNumberToWords.Services", "ConvertNumberToWords.Service\ConvertNumberToWords.Services.csproj", "{3758F2F5-6D3C-4113-BCE9-B5CEFD03DAAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertNumberToWords.DependencyInjection", "ConvertNumberToWords.DependencyInjection\ConvertNumberToWords.DependencyInjection.csproj", "{C40E9D8B-7D0D-45D9-BF97-7930C3044D8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Domain", "01-Domain", "{FC7D6E82-EB86-4D89-BE35-FC68A518B66A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Service Interfaces", "02-Service Interfaces", "{21F56BAB-D14A-47D7-B04F-4801A1F71561}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Services", "03-Services", "{4CD2E55B-6147-41D0-86F0-84122D1F7A81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Infrastructure", "04-Infrastructure", "{5A3F9794-90C6-4872-90BF-D83B6718138D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-WebUI", "05-WebUI", "{599187B5-10BA-4BB1-9AEB-75AF8D93C2B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertNumberToWords.Service.Interfaces", "ConvertNumberToWords.Service.Interfaces\ConvertNumberToWords.Service.Interfaces.csproj", "{76587E0A-478C-4AFB-A462-872C83B2645A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertNumberToWords.Domain", "ConvertNumberToWords.Domain\ConvertNumberToWords.Domain.csproj", "{57107B04-0136-4C85-9701-004323F000F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConverNumberToWords.DomainModels.UnitTests", "ConverNumberToWords.DomainModels.UnitTests\ConverNumberToWords.DomainModels.UnitTests.csproj", "{806187BA-A538-4559-B37F-2326F6EDD4FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertNumberToWords.Services.UnitTests", "ConvertNumberToWords.Services.UnitTests\ConvertNumberToWords.Services.UnitTests.csproj", "{032CC011-4032-4051-8DF1-E7B13FC61375}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertNumberToWords.Database", "ConvertNumberToWords.Database\ConvertNumberToWords.Database.csproj", "{D4D5E5BB-34FB-4F47-BEAF-2326A33EA516}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertNumberToWordsUI", "ConvertNumberToWordsUI\ConvertNumberToWordsUI.csproj", "{08157DB6-7024-4969-B234-D6204A892DF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertNumberToWords.RepositoryInterfaces", "ConvertNumberToWords.RepositoryInterfaces\ConvertNumberToWords.RepositoryInterfaces.csproj", "{CC8EB076-E2A4-404F-9937-77FDCE14BCDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4E36D07-3E9D-4771-B8D4-A6B5E394E9A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E36D07-3E9D-4771-B8D4-A6B5E394E9A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E36D07-3E9D-4771-B8D4-A6B5E394E9A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E36D07-3E9D-4771-B8D4-A6B5E394E9A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3758F2F5-6D3C-4113-BCE9-B5CEFD03DAAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3758F2F5-6D3C-4113-BCE9-B5CEFD03DAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3758F2F5-6D3C-4113-BCE9-B5CEFD03DAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3758F2F5-6D3C-4113-BCE9-B5CEFD03DAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C40E9D8B-7D0D-45D9-BF97-7930C3044D8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C40E9D8B-7D0D-45D9-BF97-7930C3044D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C40E9D8B-7D0D-45D9-BF97-7930C3044D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C40E9D8B-7D0D-45D9-BF97-7930C3044D8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76587E0A-478C-4AFB-A462-872C83B2645A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76587E0A-478C-4AFB-A462-872C83B2645A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76587E0A-478C-4AFB-A462-872C83B2645A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76587E0A-478C-4AFB-A462-872C83B2645A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57107B04-0136-4C85-9701-004323F000F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57107B04-0136-4C85-9701-004323F000F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57107B04-0136-4C85-9701-004323F000F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57107B04-0136-4C85-9701-004323F000F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{806187BA-A538-4559-B37F-2326F6EDD4FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{806187BA-A538-4559-B37F-2326F6EDD4FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{806187BA-A538-4559-B37F-2326F6EDD4FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{806187BA-A538-4559-B37F-2326F6EDD4FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{032CC011-4032-4051-8DF1-E7B13FC61375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{032CC011-4032-4051-8DF1-E7B13FC61375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{032CC011-4032-4051-8DF1-E7B13FC61375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{032CC011-4032-4051-8DF1-E7B13FC61375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D5E5BB-34FB-4F47-BEAF-2326A33EA516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D5E5BB-34FB-4F47-BEAF-2326A33EA516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D5E5BB-34FB-4F47-BEAF-2326A33EA516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D5E5BB-34FB-4F47-BEAF-2326A33EA516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08157DB6-7024-4969-B234-D6204A892DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08157DB6-7024-4969-B234-D6204A892DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08157DB6-7024-4969-B234-D6204A892DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08157DB6-7024-4969-B234-D6204A892DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC8EB076-E2A4-404F-9937-77FDCE14BCDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8EB076-E2A4-404F-9937-77FDCE14BCDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8EB076-E2A4-404F-9937-77FDCE14BCDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8EB076-E2A4-404F-9937-77FDCE14BCDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4E36D07-3E9D-4771-B8D4-A6B5E394E9A8} = {599187B5-10BA-4BB1-9AEB-75AF8D93C2B0}
+		{3758F2F5-6D3C-4113-BCE9-B5CEFD03DAAC} = {4CD2E55B-6147-41D0-86F0-84122D1F7A81}
+		{C40E9D8B-7D0D-45D9-BF97-7930C3044D8D} = {599187B5-10BA-4BB1-9AEB-75AF8D93C2B0}
+		{76587E0A-478C-4AFB-A462-872C83B2645A} = {21F56BAB-D14A-47D7-B04F-4801A1F71561}
+		{57107B04-0136-4C85-9701-004323F000F9} = {FC7D6E82-EB86-4D89-BE35-FC68A518B66A}
+		{806187BA-A538-4559-B37F-2326F6EDD4FD} = {FC7D6E82-EB86-4D89-BE35-FC68A518B66A}
+		{032CC011-4032-4051-8DF1-E7B13FC61375} = {4CD2E55B-6147-41D0-86F0-84122D1F7A81}
+		{D4D5E5BB-34FB-4F47-BEAF-2326A33EA516} = {5A3F9794-90C6-4872-90BF-D83B6718138D}
+		{08157DB6-7024-4969-B234-D6204A892DF5} = {599187B5-10BA-4BB1-9AEB-75AF8D93C2B0}
+		{CC8EB076-E2A4-404F-9937-77FDCE14BCDB} = {5A3F9794-90C6-4872-90BF-D83B6718138D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F71471D-D96F-4907-876A-05938E713484}
+	EndGlobalSection
+EndGlobal
