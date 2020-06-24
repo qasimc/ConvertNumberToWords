@@ -9,9 +9,7 @@
         dataType: "json",
         data: JSON.stringify(numberValue),
         success: function (data) {
-
             $("#msg").text(data);
-
         },
         error: function (data, status, error) {
             debugger;
