@@ -10,8 +10,8 @@ I have defined interfaces for the service layer and the repository layer which a
 
 The sql script for table definition is as follows:
 
-CREATE TABLE [dbo].[ConvertedNumbers](
+"CREATE TABLE [dbo].[ConvertedNumbers](
 	[InputNumber] [decimal](30, 3) NOT NULL,
 	[OutputText] [varchar](1000) NOT NULL
 ) ON [PRIMARY]
-GO
+GO"
