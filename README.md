@@ -15,3 +15,6 @@ The sql script for table definition is as follows:
 	[OutputText] [varchar](1000) NOT NULL
 ) ON [PRIMARY]
 GO"
+
+
+This project is also deployed on Azure and can be accessed via the URL http://convertnumbertowords.azurewebsites.net/
